@@ -56,7 +56,7 @@ const Testimonial = () => {
               <div className="user_infor">
                 <img src={user_2  } alt=''/>
                 <div>
-                  <h3>Mercy Waks</h3>
+                  <h3>George Greg</h3>
                   <span>Kondele Primo</span>
                 </div>
               </div>
@@ -72,7 +72,7 @@ const Testimonial = () => {
               <div className="user_infor">
                 <img src={user_3 } alt=''/>
                 <div>
-                  <h3>Mercy Waks</h3>
+                  <h3>Esther Joy</h3>
                   <span>Kondele Primo</span>
                 </div>
               </div>
@@ -88,7 +88,7 @@ const Testimonial = () => {
               <div className="user_infor">
                 <img src={user_4 } alt=''/>
                 <div>
-                  <h3>Mercy Waks</h3>
+                  <h3>Blessed Oyoo</h3>
                   <span>Kondele Primo</span>
                 </div>
               </div>
@@ -104,7 +104,7 @@ const Testimonial = () => {
               <div className="user_infor">
                 <img src={user_5} alt=''/>
                 <div>
-                  <h3>Mercy Waks</h3>
+                  <h3>Jonnes Miya</h3>
                   <span>Migosi Primo</span>
                 </div>
               </div>
