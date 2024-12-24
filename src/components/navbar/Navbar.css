@@ -22,6 +22,51 @@
    cursor: pointer;
  }
  .dark-nav{
-   background-color: #990011;
+   background-color: transparent;
    transition: 0.5s;
  }
+.menu_icon{
+  display: none;
+  filter: hue-rotate(110deg);
+}
+ /* ........media query........ */
+
+ @media(max-width: 1200px){
+  .logo{
+    width: 100px;
+  }
+  nav ul li{
+    margin: 5px 10px;
+    font-size: 12px;
+  }
+ }
+@media(max-width:900px){
+  nav{
+    padding: 15px 0;
+  }
+  nav ul{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #990011;
+    z-index: -1;
+    width: 200px;
+    padding-top: 70px;
+    transition: 0.5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 25px 35px;
+  }
+  .menu_icon{
+    display: block;
+    width: 30px;
+    cursor: pointer;
+  }
+  .hide_mobile_menu{
+    right: -200px;
+  }
+}
+ 
+ 
