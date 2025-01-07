@@ -25,7 +25,7 @@ const navbar = () => {
         <ul className={moblieMenu ? "" : 'hide_mobile_menu'}>
             <li><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
             <li><Link to='about' smooth={true} offset={-150} duration={500}>About Us</Link></li>
-            <li>Resources</li>
+            <li><Link to='resources' smooth={true} offset={-200} duration={500} >Resources</Link></li>
             <li>Robotics kit store</li>
             <li>Events</li>
             <li>Partner with us</li>
